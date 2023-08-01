@@ -1,0 +1,30 @@
+/*Define the main nav block*/
+.main-nav{
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    background-color: #333;
+}
+
+/*Remove bullets, margin, and padding*/
+main-nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.main-nav li{
+    display: inline;
+}
+
+.main-nav li a{
+    display: inline-block;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+/*display the active link differently*/
+
+.main-nav li a.active{
+    background-color: #3786E1;
+}
